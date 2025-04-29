@@ -14,6 +14,8 @@
 	
 	<th:block layout:fragment="jsScript">
 		<script th:inline="javascript">
+		
+		
 			const rowPerPage = /*[[${rowPerPage}]]*/'';
 			if(rowPerPage) {
 				$('.page-link').each((idx, item)=>{
